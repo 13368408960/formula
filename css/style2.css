@@ -45,7 +45,9 @@ h3{
 }
 .yName{
 	display: inline-block;
-	margin-top: 115px;
+	margin-top: 162px;
+	width: 10px;
+	margin-left: 50px;
 }
 .formula{
 	display: block;
@@ -61,7 +63,7 @@ h3{
 	border-radius: 15px;
 	box-shadow: 0 5px 5px rgba(0,0,0,.2);
 	position: absolute;
-	bottom: 199.6px;
+	bottom: 344.7px;
 	left: 0;
 }
 .ball2{
@@ -69,7 +71,14 @@ h3{
 	
 	border: 1px solid #6ebdcd;
 }
-
+.ball3{
+	background: linear-gradient(#e9e9e9,#c0c0c0);
+	border: 1px solid #020101;
+}
+.ball4{
+	background: linear-gradient(#dfeaff,#abc9ff);
+	border: 1px solid #4a7ebc;
+}
 .frequency{
 	margin-top: 160px;
 	font-size: 20px;
@@ -122,6 +131,14 @@ h3{
 	background: linear-gradient(#e0f8ff,#a3ebff);
 	border: 1px solid #6ebdcd;
 }
+.ctrl3{
+	background: linear-gradient(#e9e9e9,#c0c0c0);
+	border: 1px solid #020101;
+}
+.ctrl4{
+	background: linear-gradient(#dfeaff,#abc9ff);
+	border: 1px solid #4a7ebc;
+}
 .par{
 	width: 100vw;
 	height: 100vh;
@@ -140,18 +157,27 @@ h3{
 	display: block;
 }
 //起始位置
-#case2 .ball2{
-	bottom: 193.6px;
+#case2 .ball1{
+	bottom: 310.1px;
 }
-#case3 .ball1{
-	bottom:199.6px ;
+#case2 .ball2{
+	bottom: 364.5px;
+}
+#case2 .ball3{
+	bottom:421.8px ;
 }
 #case3 .ball2{
-	bottom: 162.5px;
+	bottom: 446.8px;
 }
-#case4 .ball1{
-	bottom: 16px;
+#case3 .ball1{
+	bottom: 189.3px;
 }
-#case4 .ball2{
-	bottom: 23.5px;
+#case3 .ball2{
+	bottom: 303.3px;
+}
+#case3 .ball3{
+	bottom:292.9px ;
+}
+#case3 .ball2{
+	bottom: 278.9px;
 }

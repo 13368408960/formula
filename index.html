@@ -11,38 +11,120 @@
 		<div class="par">
 				<img src="img/parameter.png"/>
 			</div>
-		<div class="box">
-			<h3>Wall-Pressure Spectral Model</h3>
+			<h3>In Amiet's trailing edge noise model, one of the most important input parameters is the spectrum of fluctuating wall pressure. Taking the APG (adverse pressure gradient) effect into account, it is presented as (Rozenberg and Robert, 2012) :</h3>
 			<img src="img/formula.jpg" class="formula" />
 			<div class="showPar">Click here for nomenclature</div>
 			
+		<div class="box" id='case1'>
+			<div style="width: 100%-30px;padding-left: 30px;padding-bottom: 20px;">
+				<img src="img/case1.png"/>
+				<p style="font-size: 20px;font-weight: 600;">NACA0012 airfoil, with angle of attack of 0, at wind speed 69.5 m/s.</p>	
+			</div>
 			<div class="yName">
 				<img src="img/yName.png" />
 			</div>
 			<div class="ballBox">
-				<div class="ball"></div>
-				<div class="xLine">φpp:67</div>
-				<!--<div class="yline">Frequency:500</div>-->
+				<div class="ball ball1"></div>
+			</div>
+			<div class="frequency">Frequency <br />[HZ]</div>
+			<div class="ctrlbox">
+				<div class="ctrl ctrl1"></div>
+			</div>
+			<div class="spBox">
+				<span >2.4786</span>
+				<span >3.9731</span>	
+			</div>
+		</div>
+		<div class="box" id="case2">
+			<div style="width: 100%-30px;padding-left: 30px;padding-bottom: 20px;">
+				<img src="img/case2.png"/>
+				<p style="font-size: 20px;font-weight: 600;">NACA0012 airfoil, with angle of attack of 0, at wind speed 69.5 m/s, for two chordwise positions upstream of the trailing edge (TE).
+</p>	
+			</div>
+			<div class="yName">
+				<img src="img/yName.png" />
+			</div>
+			<div class="ballBox">
+				<div class="ball ball1"></div>
+				<div class="ball ball2"></div>
+			</div>	
+			<div class="frequency">Frequency <br />x<sub>TE</sub>=18mm</div>
+			<div class="ctrlbox">
+				<div class="ctrl ctrl1"></div>
+			</div>
+			<div class="spBox">
+				<span >2.4786</span>
+				<span >3.9731</span>	
+			</div>
+			<div class="frequency frequency2">Frequency<br />x<sub>TE</sub>=77mm</div>
+			<div class="ctrlbox ctrlbox2">
+				<div class="ctrl ctrl2"></div>
+			</div>
+			<div class="spBox spBox2">
+				<span >2.4786</span>
+				<span >3.9731</span>	
+			</div>
+		</div>
+		<div class="box" id="case3">
+			<div style="width: 100%-30px;padding-left: 30px;padding-bottom: 20px;">
+				<img src="img/case3.png"/>
+				<p style="font-size: 20px;font-weight: 600;">NACA0012 and NACA5510 airfoil, with angle of attack of 0, at wind speed 69,5 m/s.
+</p>	
+			</div>
+			<div class="yName">
+				<img src="img/yName.png" />
+			</div>
+			<div class="ballBox">
+				<div class="ball ball1"></div>
+				<div class="ball ball2"></div>
+			</div>
+			<div class="frequency">Frequency<br />NACA0012</div>
+			<div class="ctrlbox">
+				<div class="ctrl ctrl1"></div>
+			</div>
+			<div class="spBox">
+				<span >2.4786</span>
+				<span >3.9731</span>	
+			</div>
+			<div class="frequency frequency2">Frequency<br />NACA5510</div>
+			<div class="ctrlbox ctrlbox2">
+				<div class="ctrl ctrl2"></div>
+			</div>
+			<div class="spBox spBox2">
+				<span >2.4786</span>
+				<span >3.9731</span>	
+			</div>
+		</div>
+		<div class="box" id="case4">
+			<div style="width: 100%-30px;padding-left: 30px;padding-bottom: 20px;">
+				<img src="img/case4.png"/>
+				<p style="font-size: 20px;font-weight: 600;">NACA0015 airfoil, with angle of attack of 0, at wind speed 30 m/s, and 50 m/s.
+</p>	
+			</div>
+			<div class="yName">
+				<img src="img/yName.png" />
+			</div>
+			<div class="ballBox">
+				<div class="ball ball1"></div>
+				<div class="ball ball2"></div>
 			</div>
 			<div class="frequency">Frequency</div>
 			<div class="ctrlbox">
-				<div class="ctrl"></div>
+				<div class="ctrl ctrl1"></div>
 			</div>
 			<div class="spBox">
-				<span >500</span>
-				<span >1000</span>
-				<span >1500</span>
-				<span >2000</span>
-				<span >2500</span>
-				<span >3000</span>
-				<span >3500</span>
-				<span >4000</span>
-				<span >4500</span>
-				<span >5000</span>
+				<span >2.0000</span>
+				<span >3.9542</span>	
 			</div>
-			
+			<div class="frequency frequency2">Frequency<br />x<sub>TE</sub>=77mm</div>
+			<div class="ctrlbox ctrlbox2">
+				<div class="ctrl ctrl2"></div>
+			</div>
+			<div class="spBox spBox2">
+				<span >2.0000</span>
+				<span >3.9542</span>		
+			</div>
 		</div>
-
 		<script src="js/jQuery.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/start.js" type="text/javascript" charset="utf-8"></script>
 	</body>
