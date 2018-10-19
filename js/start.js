@@ -19,7 +19,7 @@ function model(boxId,ctrl, ball, scale,yZero,color,data) {
 	
 }
 //第一页case1
-var _1_1_1 = new model('case1', 'ctrl1','ball1',10,600,'linear-gradient(#ffe7d5,#ffc08a)', [{
+var _1_1_1 = new model('case1', 'ctrl1','ball1',10,500,'linear-gradient(#ffe7d5,#ffc08a)', [{
 	x: 2.4786,
 	y: 79.96
 }, {
@@ -86,7 +86,7 @@ _1_1_1.ctrl.on('mousedown', function(ev) {
 	hoverCtrl = _1_1_1;
 })
 //第一页case2
-var _1_2_1 = new model('case2', 'ctrl1','ball1',10,600,'linear-gradient(#ffe7d5,#ffc08a)', [{
+var _1_2_1 = new model('case2', 'ctrl1','ball1',10,500,'linear-gradient(#ffe7d5,#ffc08a)', [{
 	x: 2.4786,
 	y: 79.96
 }, {
@@ -155,7 +155,7 @@ _1_2_1.ctrl.on('mousedown', function(ev) {
 })
 
 
-var _1_2_2 = new model('case2', 'ctrl2','ball2',10,600,'linear-gradient(#e0f8ff,#a3ebff)', [{
+var _1_2_2 = new model('case2', 'ctrl2','ball2',10,500,'linear-gradient(#e0f8ff,#a3ebff)', [{
 	x: 2.4786,
 	y: 79.36   
 
@@ -224,7 +224,7 @@ _1_2_2.ctrl.on('mousedown', function(ev) {
 })
 //第一页case3
 //第一个
-var _1_3_1 = new model('case3', 'ctrl1','ball1',10,600,'linear-gradient(#ffe7d5,#ffc08a)', [{
+var _1_3_1 = new model('case3', 'ctrl1','ball1',10,500,'linear-gradient(#ffe7d5,#ffc08a)', [{
 	x: 2.4786,
 	y: 79.96   
 }, {
@@ -283,7 +283,7 @@ var _1_3_1 = new model('case3', 'ctrl1','ball1',10,600,'linear-gradient(#ffe7d5,
 	y: 73.20  
 }, {
 	x: 3.9731,
-	y:  70.00  
+	y: 70.00  
 }])
 
 
@@ -291,7 +291,7 @@ _1_3_1.ctrl.on('mousedown', function(ev) {
 	html.on('mousemove', onmove);
 	hoverCtrl = _1_3_1;
 })
-var _1_3_2 = new model('case3', 'ctrl2','ball2',10,600,'linear-gradient(#e0f8ff,#a3ebff)', [{
+var _1_3_2 = new model('case3', 'ctrl2','ball2',10,500,'linear-gradient(#e0f8ff,#a3ebff)', [{
 	x: 2.4786,
 	y: 86.25   
 }, {
@@ -362,63 +362,63 @@ _1_3_2.ctrl.on('mousedown', function(ev) {
 
 //第一页case4
 //第一个
-var _1_4_1 = new model('case4', 'ctrl1','ball1',10000,0,'linear-gradient(#ffe7d5,#ffc08a)', [{
+var _1_4_1 = new model('case4', 'ctrl1','ball1',10,0,'linear-gradient(#ffe7d5,#ffc08a)', [{
 	x: 2.0000,
-	y: 0.0016   
+	y: 38.06   
 }, {
 	x: 2.1761,
-	y: 0.0026   
+	y: 42.28  
 }, {
 	x: 2.3010,
-	y: 0.0033   
+	y: 44.35   
 }, {
 	x: 2.4771,
-	y: 0.0042   
+	y: 46.44   
 }, {
 	x: 2.6021,
-	y: 0.0047   
+	y: 47.42   
 }, {
 	x: 2.6990,
-	y: 0.0050  
+	y: 47.96  
 }, {
 	x: 2.7782,
-	y: 0.0050   
+	y: 47.96 
 }, {
 	x: 2.8451,
-	y: 0.0049   
+	y: 47.78   
 }, {
 	x: 2.9031,
-	y: 0.0047       
+	y: 47.42       
 }, {
 	x: 2.9542,
-	y: 0.0045     
+	y: 47.04     
 }, {
 	x: 3.0000,
-	y: 0.0043   
+	y: 46.65   
 }, {
 	x: 3.3010,
-	y: 0.0026   
+	y: 42.28  
 }, {
 	x: 3.4771,
-	y: 0.0016   
+	y: 38.06  
 }, {
 	x: 3.5441,
-	y: 0.0011 
+	y: 34.81 
 }, {
 	x: 3.6021,
-	y: 0.0008  
+	y: 32.04
 }, {
 	x: 3.6990,
-	y: 0.0006  
+	y: 29.54  
 }, {
 	x: 3.7782,
-	y: 0.0004 
+	y: 26.02 
 }, {
 	x: 3.8451,
-	y: 0.0004 
+	y: 23.52 
 }, {
 	x: 3.9731,
-	y: 0.0003 
+	y: 13.98
 }])
 
 
@@ -430,131 +430,63 @@ _1_4_1.ctrl.on('mousedown', function(ev) {
 
 
 //第二个
-var _1_4_1 = new model('case4', 'ctrl1','ball1',1000,0,'linear-gradient(#ffe7d5,#ffc08a)', [{
+var _1_4_2 = new model('case4', 'ctrl2','ball2',10,0,'linear-gradient(#e0f8ff,#a3ebff)', [{
 	x: 2.0000,
-	y: 0.0235   
+	y: 61.40   
 }, {
 	x: 2.1761,
-	y: 0.0385   
+	y: 65.69  
 }, {
 	x: 2.3010,
-	y: 0.0536   
+	y: 68.56   
 }, {
 	x: 2.4771,
-	y: 0.0771   
+	y: 71.72   
 }, {
 	x: 2.6021,
-	y: 0.0916   
+	y: 73.22  
 }, {
 	x: 2.6990,
-	y: 0.0987  
+	y: 73.87 
 }, {
 	x: 2.7782,
-	y: 0.1016   
+	y: 74.12 
 }, {
 	x: 2.8451,
-	y: 0.1006   
+	y: 74.03 
 }, {
 	x: 2.9031,
-	y: 0.0977       
+	y: 73.78     
 }, {
 	x: 2.9542,
-	y: 0.0949     
+	y: 73.52     
 }, {
 	x: 3.0000,
-	y: 0.0891   
+	y: 72.98  
 }, {
 	x: 3.3010,
-	y: 0.0424   
+	y: 66.53 
 }, {
 	x: 3.4771,
-	y: 0.0206 
+	y: 60.26 
 }, {
 	x: 3.6021,
-	y: 0.0100
+	y: 53.98
 }, {
 	x: 3.6990,
-	y: 0.0053  
+	y: 48.46 
 }, {
 	x: 3.7782,
-	y: 0.0031  
+	y: 43.81 
 }, {
 	x: 3.8451,
-	y: 0.0018 
+	y: 39.08
 }, {
 	x: 3.9031,
-	y: 0.0011 
+	y: 34.81
 }, {
 	x: 3.9542,
-	y: 0.0007 
-}])
-
-_1_4_1.ctrl.on('mousedown', function(ev) {
-	html.on('mousemove', onmove);
-	hoverCtrl = _1_4_1;
-})
-
-
-
-//第二个
-
-var _1_4_2 = new model('case4', 'ctrl2','ball2',1000,0,'linear-gradient(#e0f8ff,#a3ebff)', [{
-	x: 2.0000,
-	y: 0.0235   
-}, {
-	x: 2.1761,
-	y: 0.0385   
-}, {
-	x: 2.3010,
-	y: 0.0536   
-}, {
-	x: 2.4771,
-	y: 0.0771   
-}, {
-	x: 2.6021,
-	y: 0.0916   
-}, {
-	x: 2.6990,
-	y: 0.0987  
-}, {
-	x: 2.7782,
-	y: 0.1016   
-}, {
-	x: 2.8451,
-	y: 0.1006   
-}, {
-	x: 2.9031,
-	y: 0.0977       
-}, {
-	x: 2.9542,
-	y: 0.0949     
-}, {
-	x: 3.0000,
-	y: 0.0891   
-}, {
-	x: 3.3010,
-	y: 0.0424   
-}, {
-	x: 3.4771,
-	y: 0.0206 
-}, {
-	x: 3.6021,
-	y: 0.0100
-}, {
-	x: 3.6990,
-	y: 0.0053  
-}, {
-	x: 3.7782,
-	y: 0.0031  
-}, {
-	x: 3.8451,
-	y: 0.0018 
-}, {
-	x: 3.9031,
-	y: 0.0011 
-}, {
-	x: 3.9542,
-	y: 0.0007 
+	y: 30.88
 }])
 
 
@@ -562,23 +494,6 @@ _1_4_2.ctrl.on('mousedown', function(ev) {
 	html.on('mousemove', onmove);
 	hoverCtrl = _1_4_2;
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
