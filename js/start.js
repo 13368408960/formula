@@ -533,13 +533,13 @@ function onmove(ev) {
 	if(lastIndex!=highter||highter==hoverCtrl.data.length-1){
 		if(highter!=0&&lastIndex!=hoverCtrl.data.length-1){
 			if(hoverCtrl.yNum.findIndex(val=>{return val==highter})!=-1)return;
-			var temp = $('<div style="width: 28px;font-size:12px;line-height:28px;text-align:center;height: 28px;background-image:'+hoverCtrl.color+';border: #f39749 solid 1px;border-radius: 15px;box-shadow: 0 5px 5px rgba(0,0,0,.2);position: absolute;">'+hoverCtrl.data[highter-1].y+'</div>');
+			var temp = $('<div style="width: 28px;font-size:12px;line-height:28px;text-align:center;height: 28px;background-image:'+hoverCtrl.color+';border: #f39749 solid 1px;border-radius: 15px;box-shadow: 0 5px 5px rgba(0,0,0,.2);position: absolute;"></div>');
 			temp.css('position','absolute').css('left',x+'px').css('bottom',hoverCtrl.data[highter-1].y*hoverCtrl.scale-hoverCtrl.yZero+'px')
 			hoverCtrl.ballBox.append(temp);
 			hoverCtrl.yNum.push(highter);
 		}else if(x==670){
 			if(hoverCtrl.yNum.length==hoverCtrl.data.length)return;
-			var temp = $('<div style="width: 28px;font-size:12px;line-height:28px;text-align:center;height: 28px;background-image:'+hoverCtrl.color+';border: #f39749 solid 1px;border-radius: 15px;box-shadow: 0 5px 5px rgba(0,0,0,.2);position: absolute;">'+hoverCtrl.data[hoverCtrl.data.length-1].y+'</div>');
+			var temp = $('<div style="width: 28px;font-size:12px;line-height:28px;text-align:center;height: 28px;background-image:'+hoverCtrl.color+';border: #f39749 solid 1px;border-radius: 15px;box-shadow: 0 5px 5px rgba(0,0,0,.2);position: absolute;"></div>');
 		temp.css('position','absolute').css('left',x+'px').css('bottom',hoverCtrl.data[hoverCtrl.data.length-1].y*hoverCtrl.scale-hoverCtrl.yZero+'px')
 		hoverCtrl.ballBox.append(temp);
 			hoverCtrl.yNum.push(hoverCtrl.data.length)
