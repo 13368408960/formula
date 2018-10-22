@@ -408,7 +408,7 @@ _2_2_4.ctrl.on('mousedown', function(ev) {
 })
 //第二页case3
 //第一个
-var _2_3_1 = new model('case3', 'ctrl1','ball1',10,200,'linear-gradient(#ffe7d5,#ffc08a)', [{
+var _2_3_1 = new model('case3', 'ctrl1','ball1',10,400,'linear-gradient(#ffe7d5,#ffc08a)', [{
 	x: 2.6990,
 	y: 58.93
 }, {
@@ -463,7 +463,7 @@ _2_3_1.ctrl.on('mousedown', function(ev) {
 	hoverCtrl = _2_3_1;
 })
 //第二个
-var _2_3_2 = new model('case3', 'ctrl2','ball2',10,200,'linear-gradient(#e0f8ff,#a3ebff)', [{
+var _2_3_2 = new model('case3', 'ctrl2','ball2',10,400,'linear-gradient(#e0f8ff,#a3ebff)', [{
 	x: 2.6990,
 	y: 70.33
 }, {
@@ -518,7 +518,7 @@ _2_3_2.ctrl.on('mousedown', function(ev) {
 	hoverCtrl = _2_3_2;
 })
 //第三个
-var _2_3_3 = new model('case3', 'ctrl3','ball3',10,200,'linear-gradient(#e9e9e9,#c0c0c0)', [{
+var _2_3_3 = new model('case3', 'ctrl3','ball3',10,400,'linear-gradient(#e9e9e9,#c0c0c0)', [{
 	x: 2.6990,
 	y: 69.29
 }, {
@@ -573,7 +573,7 @@ _2_3_3.ctrl.on('mousedown', function(ev) {
 	hoverCtrl = _2_3_3;
 })
 //第四个
-var _2_3_4 = new model('case3', 'ctrl4','ball4',10,200,'linear-gradient(#dfeaff,#abc9ff)', [{
+var _2_3_4 = new model('case3', 'ctrl4','ball4',10,400,'linear-gradient(#dfeaff,#abc9ff)', [{
 	x: 2.6990,
 	y: 67.89
 }, {
@@ -627,20 +627,6 @@ _2_3_4.ctrl.on('mousedown', function(ev) {
 	html.on('mousemove', onmove);
 	hoverCtrl = _2_3_4;
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
